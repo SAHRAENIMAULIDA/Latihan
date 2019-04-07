@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int umur;
+  cout<<"masukkan umur  ";
+  cin>>umur; if (umur<=17)
+  cout<<"sudah cukup umur  ";
+  cin>>umur; if (umur<=20)
+  cout<<"belum cukup umur  ";
+  else cout<<"maaf anda masih kecil";
+  
+  return 0;
+  }
